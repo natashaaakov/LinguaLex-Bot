@@ -4329,11 +4329,12 @@ async def help_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
     )
 
 # Responses
-def handle_response(text: str) -> str:
 
-    processed_text: str = text.lower()
+#def handle_response(text: str) -> str:
 
-    return "I don't understand what you wrote... 😔"
+#    processed_text: str = text.lower()
+
+#    return "I don't understand what you wrote... 😔"
 
 
 async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
